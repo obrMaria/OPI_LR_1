@@ -10,7 +10,9 @@ int main()
 {
 	setlocale(0, "");
 	int n, k;
-	
+	cout << ("k=");
+	cin >> k;
+
 
 	return 0;
 	system("pause");

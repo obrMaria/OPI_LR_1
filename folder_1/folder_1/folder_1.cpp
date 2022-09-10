@@ -10,14 +10,17 @@ int main()
 {
 	setlocale(0, "");
 	
-	cout << (" начало работы ");
+	cout << ("\n начало работы\n ");
 
 	int i, j, N;
 	float a;
 	double S = 0;
+	cout << ("\nвведите N: ");
+	cin >> N;
 	
 
 
+	cout  << N;
 	return 0;
 	system("pause");
 }

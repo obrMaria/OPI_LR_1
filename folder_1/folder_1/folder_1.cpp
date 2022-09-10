@@ -12,6 +12,12 @@ int main()
 	
 	cout << (" начало работы ");
 
+	int i, j, N;
+	float a;
+	double S = 0;
+	
+
+
 	return 0;
 	system("pause");
 }

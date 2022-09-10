@@ -4,7 +4,7 @@
 #include<cmath>
 #include<iostream>
 
-usingnamespace std;
+using namespace std;
 
 int main()
 {
@@ -12,6 +12,13 @@ int main()
 	int n, k;
 	cout << ("k=");
 	cin >> k;
+	n = 0;
+	for (int i = 1; i < sqrt(k); i++)
+	{
+		if (k % i == 0) n++;
+	}
+	if (n == 1) cout << ("1");
+	else cout << ("0");
 
 
 	return 0;
